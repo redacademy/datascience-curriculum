@@ -18,6 +18,7 @@ sys.path.insert(0, os.path.abspath('../../'))
 
 import nbsphinx
 import sphinx_rtd_theme
+import sphinx_markdown_tables
 
 # -- Project information -----------------------------------------------------
 
@@ -33,15 +34,23 @@ author = 'Jill Cates'
 # ones.
 extensions = [
     'sphinx.ext.githubpages',
-    'nbsphinx']
+    'nbsphinx',
+    'sphinx_markdown_tables']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
+
+source_parsers = {
+   '.md': 'recommonmark.parser.CommonMarkParser',
+}
+
+source_suffix = ['.rst', '.md', '.ipynb']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
+
 
 
 # -- Options for HTML output -------------------------------------------------

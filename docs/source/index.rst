@@ -6,6 +6,51 @@
 Welcome to Intro to Python and Data Science's documentation!
 ============================================================
 
+This curriculum is divided into four parts:
+
+- `Part 1: Introduction to Python <https://github.com/topspinj/red-academy-curriculum/tree/master/part1>`_
+- `Part 2: Data Manipulation <https://github.com/topspinj/red-academy-curriculum/tree/master/part2>`_
+- `Part 3: Data Visualization and Exploration <https://github.com/topspinj/red-academy-curriculum/tree/master/part3>`_
+- `Part 4: Introduction to Machine Learning <https://github.com/topspinj/red-academy-curriculum/tree/master/part4>`_
+
+Each part consists of learning material in the form of Jupyter notebooks that explain Python and data science concepts using concrete examples. It is highly recommended that you run through these notebooks and test out the code on your own.
+
+There are also "fill-in-the-blank" exercises (located in the :code:`exercises/` folder) that you can do to solidify your knowledge. These exercises are also available on `Google Colab <https://colab.research.google.com/>`_. 
+
+Learning Objectives
+--------------------
+
+This curriculum is meant to be a condensed bootcamp-style workshop that covers key concepts in Python and data science. By the end of this curriculum, you will have a better understand of:
+
+- Python's syntax and datatypes (Part 1)
+- Defining local and global variables in Python (Part 1)
+- Creating a function with docstrings (Part 1)
+- Scraping the web using BeautifulSoup (Part 1)
+- Using Pandas DataFrames to clean and manipulate data (Part 2)
+- Exploring data with Seaborn and Matplotlib (Part 3)
+- Building machine learning models to perform binary classification (Part 4)
+
+How to Run the Exercises
+-------------------------
+
+The exercises in this curriculum come in the form of Jupyter notebooks. You can run these noteboks in two ways:
+
+1. locally on your own machine
+2. in the cloud using Google Colab 
+
+To run the notebooks locally, you will need to have the following software installed:
+
+- Python 3.6+
+- Jupyter notebook
+- Python packages: pandas, seaborn, matplotlib, sklearn 
+
+To run the notebooks in `Google Colab <https://colab.research.google.com/>`_, the only requirement is a Gmail account. 
+
+
+Exercise Links
+---------------
+
+
 .. toctree::
    :maxdepth: 1
    :caption: Part 1: Python Fundamentals
