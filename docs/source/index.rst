@@ -47,10 +47,6 @@ To run the notebooks locally, you will need to have the following software insta
 To run the notebooks in `Google Colab <https://colab.research.google.com/>`_, the only requirement is a Gmail account. 
 
 
-Exercise Links
----------------
-
-
 .. toctree::
    :maxdepth: 1
    :caption: Part 1: Python Fundamentals
