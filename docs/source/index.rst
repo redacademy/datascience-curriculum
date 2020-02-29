@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Intro to Python and Data Science's documentation!
-============================================================
+Intro to Python and Data Science
+=================================
 
 This curriculum is divided into four parts:
 
